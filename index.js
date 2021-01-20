@@ -39,7 +39,7 @@ bot.on("message", async message =>{
     let prefix = config.prefix;
     let args = message.content.slice(prefix.length).split(/ +/g);
     let cmd = args.shift().toLowerCase();
-    bot.user.setActivity("no!help",{type: "PLAYING"}).catch(console.error);
+    bot.user.setActivity("se!help",{type: "PLAYING"}).catch(console.error);
 
     
     let commandfile = bot.commands.get(cmd) || bot.commands.get(bot.aliases.get(cmd));

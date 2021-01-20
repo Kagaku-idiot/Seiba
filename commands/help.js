@@ -20,7 +20,6 @@ module.exports.run = async (bot, message, args) => {
   .addField('**Command for Telling Someone They are Stupid**', 'bruh(@person)', false)
   .addField('**Command for Poggers Moment**', 'poggers(@person)', false)
   .addField('**Command for CatGirl**', 'catgirl', false)
-  .addField('**Command for Art**', 'art', false)
   .addField('**Command for directly waking up someone**', 'directwakeup(@person)', false)
   .addField('**Command for Exploding Someone**', 'explode(@person)', false)
   .addField('**Command for Calculations**', 'calculate', false)
