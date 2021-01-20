@@ -13,7 +13,7 @@ module.exports = {
 
         const noArgs = new Discord.MessageEmbed()
         .setTitle('Missing arguments')
-        .setColor(0xFF0000)
+        .setColor('#FFFF00')
         .setDescription('You are missing some args (ex: ;covid all || ;covid Canada)')
         .setTimestamp()
 

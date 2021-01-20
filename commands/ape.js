@@ -5,7 +5,7 @@ const { stripIndents } = require("common-tags");
 module.exports.run = async (bot, message, args) => {
     const member = getMember(message, args.join(" "));
     const embed = new Discord.MessageEmbed()
-    .setColor("#413E4A")
+    .setColor("#FFFF00")
     .setTitle(`${member.displayName} You Are An Autistic Ape`)
     .setImage("https://i.imgur.com/HcF1S2L.jpg")
     .setTimestamp()

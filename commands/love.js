@@ -5,7 +5,7 @@ const { stripIndents } = require("common-tags");
 module.exports.run = async (bot, message, args) => {
     const member = getMember(message, args.join(" "));
     const embed = new Discord.MessageEmbed()
-    .setColor("#ffc0cb")
+    .setColor("#FFFF00")
     .setTitle(`I Love You ${member.displayName}`)
     .setImage("https://i.imgur.com/mjuxfiY.gif")
     .setTimestamp()

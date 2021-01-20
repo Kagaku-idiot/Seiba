@@ -15,7 +15,7 @@ function randomizer(length, letter) {
 module.exports.run = async (bot, message, args) => {
     const member = getMember(message, args.join(" "));
     const embed = new Discord.MessageEmbed()
-    .setColor("#fa8dfc")
+    .setColor("#FFFF00")
     .setTitle(`The Percentages Of ${member.displayName} To Be Gay Is`)
     .setDescription(randomizer(2,'0') + '%')
     .setTimestamp()

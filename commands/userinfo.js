@@ -15,7 +15,7 @@ module.exports.run = async (bot, message, args) => {
     const embed = new Discord.MessageEmbed()
         .setFooter(member.displayName, member.user.displayAvatarURL)
         .setThumbnail(member.user.displayAvatarURL)
-        .setColor(member.displayHexColor === '#000000' ? '#ffffff' : member.displayHexColor)
+        .setColor(member.displayHexColor === '#FFFF00' ? '#FFFF00' : member.displayHexColor)
 
         .addField('Member information:', stripIndents`**> Display name:** ${member.displayName}
         **> Joined at:** ${joined}

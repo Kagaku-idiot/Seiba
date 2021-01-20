@@ -3,7 +3,7 @@ const Discord = require("discord.js");
 
 module.exports.run = async (bot, message, args) => {
    var embed = new Discord.MessageEmbed()
-  .setColor('#1aff25')
+  .setColor('#FFFF00')
   .setTitle('Seiba! Command Help')
   .setThumbnail('https://cdn.discordapp.com/avatars/216204476539863040/b4070a7401bfb9d5eb1ab70df6920fa2.png?size=256')
   .setDescription("All Command That This Bot can offer")
@@ -35,7 +35,7 @@ module.exports.run = async (bot, message, args) => {
   .addField('**Command for Ascii**', 'ascii(whatever you want to say)', false)
    
    var embed2 = new Discord.MessageEmbed()
-  .setColor('#1aff25')
+  .setColor('#FFFF00')
   .setTitle('Seiba! Command Help 2')
   .addField('**Command for Covid Tracking**', 'covidtrack(Country)', false)
   .addField('**Command for Weather**', 'weather(location)', false)

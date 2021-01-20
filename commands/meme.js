@@ -23,7 +23,7 @@ module.exports.run = async (bot, message, args) => {
 
     const img = await randompuppy(random);
     const embed = new Discord.MessageEmbed()
-    .setColor("#4cfab8")
+    .setColor("#FFFF00")
     .setImage(img)
     .setFooter(`From /r/${random}`)
     .setURL(`https://reddit.com/r/${subreddits}`)

@@ -15,7 +15,7 @@ function randomizer(length, letter) {
 module.exports.run = async (bot, message, args) => {
     const member = getMember(message, args.join(" "));
     const embed = new Discord.MessageEmbed()
-    .setColor("#fa8dfc")
+    .setColor("#FFFF00")
     .setTitle(`${member.displayName} Got Slapped`)
     .setImage("https://media2.giphy.com/media/Gf3AUz3eBNbTW/giphy.gif?cid=ecf05e475714d2de78bb72283f7b21436b85d00623d4b80f&rid=giphy.gif")
     .setDescription("You Have Been Slapped")

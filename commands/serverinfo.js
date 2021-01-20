@@ -2,7 +2,7 @@ const Discord = require("discord.js")
 
 module.exports.run = async (bot,  message, args) => {
     let sEmbed = new Discord.MessageEmbed()
-    .setColor("#fd30db")
+    .setColor("#FFFF00")
     .setTitle("Server Info")
     .setThumbnail(message.guild.iconURL)
     .setAuthor(`${message.guild.name} info`, message.guild.iconURL)

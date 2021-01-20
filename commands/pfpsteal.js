@@ -11,7 +11,7 @@ module.exports.run = async (bot, message, args) => {
     let avatar = member.displayAvatarURL({dynamic: true, format: "png", size: 1024});
 
     let embed = new Discord.MessageEmbed()
-    .setColor("#f95d1a")
+    .setColor("#FFFF00")
     .setTitle(`${member.displayName}'s Avatar Is`)
     .setImage(avatar)
     .setTimestamp()
