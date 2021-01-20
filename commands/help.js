@@ -4,7 +4,7 @@ const Discord = require("discord.js");
 module.exports.run = async (bot, message, args) => {
    var embed = new Discord.MessageEmbed()
   .setColor('#1aff25')
-  .setTitle('NoNo Command Help')
+  .setTitle('Seiba! Command Help')
   .setThumbnail('https://cdn.discordapp.com/avatars/216204476539863040/b4070a7401bfb9d5eb1ab70df6920fa2.png?size=256')
   .setDescription("All Command That This Bot can offer")
   //.addField('**Commands For Moderation**', 'mod', false)
@@ -20,7 +20,6 @@ module.exports.run = async (bot, message, args) => {
   .addField('**Command for Telling Someone They are Stupid**', 'bruh(@person)', false)
   .addField('**Command for Poggers Moment**', 'poggers(@person)', false)
   .addField('**Command for CatGirl**', 'catgirl', false)
-  .addField('**Command for Art**', 'art', false)
   .addField('**Command for directly waking up someone**', 'directwakeup(@person)', false)
   .addField('**Command for Exploding Someone**', 'explode(@person)', false)
   .addField('**Command for Calculations**', 'calculate', false)
@@ -36,13 +35,13 @@ module.exports.run = async (bot, message, args) => {
    
    var embed2 = new Discord.MessageEmbed()
   .setColor('#1aff25')
-  .setTitle('NoNo Command Help 2')
+  .setTitle('Seiba! Command Help 2')
   .addField('**Command for Covid Tracking**', 'covidtrack(Country)', false)
   .addField('**Command for Weather**', 'weather(location)', false)
   .addField('**Command for Playing Music**', 'play(music)', false)
   .addField('**Command for Leaving Music**', 'leave', false)
   .setTimestamp()
-  .setFooter("NoNo Bot Help")
+  .setFooter("Seiba! Bot Help")
   message.channel.send(embed)
   message.channel.send(embed2)
   
