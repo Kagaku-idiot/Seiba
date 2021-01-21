@@ -30,7 +30,7 @@ bot.on("ready", async () =>{
     console.log("                _______ __   __  _____  _______  ")
     console.log("                |______   |_|   |_____] |_____|   ")
     console.log("                ______|    |    |       |     |   ")
-    console.log("               Welcome Kagaku, Sypa online!")
+    console.log("               Welcome [Discord user], Seiba! online!")
 })
 
 bot.on("message", async message =>{
