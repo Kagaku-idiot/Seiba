@@ -33,4 +33,4 @@ To set it up go to config.json and set the prefix to whatever you want but for t
 Enjoy :D
 
 
-If you want to keep it up 24/7 then go to heroku.com and set it up that way, if you want to turn it on locally then on your terminal type "npm install discord.js"
+If you want to keep it up 24/7 then go to heroku.com and set it up that way (Make sure you don't have node_modules), if you want to turn it on locally then on your terminal type "npm install discord.js"
