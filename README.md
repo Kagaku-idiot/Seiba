@@ -31,3 +31,6 @@ To set it up go to config.json and set the prefix to whatever you want but for t
 [NEVER SHARE YOUR BOT TOKEN IN THE PUBLIC]
     
 Enjoy :D
+
+
+If you want to keep it up 24/7 then go to heroku.com and set it up that way, if you want to turn it on locally then on your terminal type "npm install discord.js"
