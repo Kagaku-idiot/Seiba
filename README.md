@@ -26,6 +26,8 @@ Dependencies:
     "yt-search": "^2.5.2",
     "ytdl-core": "^4.4.3"
 
+Just do "npm install [dependency]" in your terminal! 
+
 To set it up go to config.json and set the prefix to whatever you want but for the token replace "Token here" To your actual bot token!
 
 [NEVER SHARE YOUR BOT TOKEN IN THE PUBLIC]
